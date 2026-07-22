@@ -14,6 +14,7 @@ A collection of Capture The Flag (CTF) challenge write-ups, documenting my solut
 - [Completed Challenges](#completed-challenges)
 - [Write-up Template](#write-up-template)
 - [Why This Matters](#why-this-matters)
+- [Acknowledgements](#acknowledgements)
 
 ## About
 
@@ -50,6 +51,7 @@ ctf-writeups/
 │       ├── level12.md
 │       ├── level13.md
 │       ├── level14.md
+│       ├── level15.md
 │       └── ...
 └── README.md
 ```
@@ -60,7 +62,7 @@ Each file is a self-contained markdown document following a consistent template.
 
 ## Completed Challenges
 
-### OverTheWire – Bandit (0–14)
+### OverTheWire – Bandit (0–15)
 
 | Level | Difficulty | Key Skills | Status |
 |-------|------------|------------|--------|
@@ -79,7 +81,8 @@ Each file is a self-contained markdown document following a consistent template.
 | 12 | Medium | `xxd -r`, nested compression | ✅ |
 | 13 | Easy–Medium | SSH private key authentication | ✅ |
 | 14 | Easy | `nc` (netcat) | ✅ |
-| 15+ | ... | ... | ⏳ In Progress |
+| 15 | Easy | `openssl s_client`, SSL/TLS | ✅ |
+| 16+ | ... | ... | ⏳ In Progress |
 
 ---
 
@@ -128,19 +131,10 @@ The password for Level X+1 is: `[FLAG]`
 
 Documenting CTF challenges is more than just "saving the answer." It's about:
 
-1. **Reinforcing learning:** Writing the explanation forces me to truly understand the concept.
-2. **Building a reference:** I can quickly revisit techniques (e.g., `xxd -r`, `file` commands, SSH keys).
-3. **Portfolio visibility:** Recruiters see not just that I solved challenges, but *how* I think and approach problems.
+- **Reinforcing learning:** Writing the explanation forces me to truly understand the concept.
+- **Building a reference:** I can quickly revisit techniques (e.g., `xxd -r`, `file` commands, SSH keys).
 
----
-
-## Next Steps
-
-- Continue through Bandit levels 15+.
-- Expand to other CTF platforms (TryHackMe, HackTheBox, etc.).
-- Add more detailed sections (e.g., "Alternative approaches", "Common pitfalls").
-
----
+----
 
 ## Acknowledgements
 
