@@ -52,6 +52,7 @@ ctf-writeups/
 │       ├── level13.md
 │       ├── level14.md
 │       ├── level15.md
+│       ├── level16.md
 │       └── ...
 └── README.md
 ```
@@ -62,7 +63,7 @@ Each file is a self-contained markdown document following a consistent template.
 
 ## Completed Challenges
 
-### OverTheWire – Bandit (0–15)
+### OverTheWire – Bandit (0–16)
 
 | Level | Difficulty | Key Skills | Status |
 |-------|------------|------------|--------|
@@ -82,7 +83,8 @@ Each file is a self-contained markdown document following a consistent template.
 | 13 | Easy–Medium | SSH private key authentication | ✅ |
 | 14 | Easy | `nc` (netcat) | ✅ |
 | 15 | Easy | `openssl s_client`, SSL/TLS | ✅ |
-| 16+ | ... | ... | ⏳ In Progress |
+| 16 | Medium | `nmap`, port scanning, SSL/TLS, SSH keys | ✅ |
+| 17+ | ... | ... | ⏳ In Progress |
 
 ---
 
